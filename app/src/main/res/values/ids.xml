@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="CameraBT" type="id">CameraBT</item>
+    <item name="IMG" type="id">IMG</item>
+    <item name="saveIMG" type="id">saveIMG</item>
+    <item name="Spin" type="id">Spin</item>
+    <item name="next" type="id">next</item>
+    <item name="Lang" type="id">Lang</item>
+    <item name="IMGdemo" type="id">IMGdemo</item>
+    <item name="tv2" type="id">tv2</item>
+    <item name="Import" type="id">Import</item>
+</resources>

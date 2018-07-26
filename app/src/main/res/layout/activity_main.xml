@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bgf"
+    >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Camera"
+       android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@id/CameraBT"
+
+        />
+
+        />
+<Spinner
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@id/Spin"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+
+    >
+
+</Spinner>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/Spin"
+
+        android:id="@id/next"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Next"/>
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+
+             android:layout_centerHorizontal="true"
+
+            android:layout_centerInParent="true"
+
+
+
+            android:id="@id/IMG"/>
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+
+        android:layout_centerHorizontal="true"
+android:id="@id/tv2"
+        android:layout_centerInParent="true"
+        android:src="@drawable/tv"
+
+
+       />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Import"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+android:id="@id/Import"
+        android:layout_marginRight="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+
+        />
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="save"
+       android:layout_marginTop="40dp"
+       android:layout_marginLeft="40dp"
+       android:layout_marginRight="40dp"
+       android:layout_alignParentRight="true"
+       android:id="@id/saveIMG"
+       android:layout_alignParentBottom="true"
+
+       />
+
+</RelativeLayout>
